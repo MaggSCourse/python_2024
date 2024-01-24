@@ -16,7 +16,7 @@ car_dict = {
     'direccion_fabrica' : ['calle conocida' , 'colonia desconocida'] , #7
     'vendido' : True #8
 }
-
+'''
 print(car_dict)
 
 print(car_dict['direccion_fabrica'][0])
@@ -26,3 +26,8 @@ print(car_dict['modelo'])
 print(car_dict['anio'])
 
 print(len(car_dict))
+'''
+
+student_dict = dict(nombre = 'Maggie', edad = 12, matricula = '1234SR')
+print(type(student_dict))
+print((student_dict['edad']))
